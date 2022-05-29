@@ -1,0 +1,12 @@
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\bin\Debug\net6.0\BookMyTicketModels.deps.json
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\bin\Debug\net6.0\BookMyTicketModels.dll
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\bin\Debug\net6.0\BookMyTicketModels.pdb
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\obj\Debug\net6.0\BookMyTicketModels.csproj.AssemblyReference.cache
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\obj\Debug\net6.0\BookMyTicketModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\obj\Debug\net6.0\BookMyTicketModels.AssemblyInfoInputs.cache
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\obj\Debug\net6.0\BookMyTicketModels.AssemblyInfo.cs
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\obj\Debug\net6.0\BookMyTicketModels.csproj.CoreCompileInputs.cache
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\obj\Debug\net6.0\BookMyTicketModels.dll
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\obj\Debug\net6.0\refint\BookMyTicketModels.dll
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\obj\Debug\net6.0\BookMyTicketModels.pdb
+C:\Users\ravia\OneDrive\Desktop\Bro's\AddressBookAPI\BookMyTicket\BookMyTicketModels\obj\Debug\net6.0\ref\BookMyTicketModels.dll

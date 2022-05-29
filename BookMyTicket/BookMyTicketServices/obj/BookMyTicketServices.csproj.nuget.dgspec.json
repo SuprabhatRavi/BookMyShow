@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketServices\\BookMyTicketServices.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj",
+        "projectName": "BookMyTicketModels",
+        "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj",
+        "packagesPath": "C:\\Users\\ravia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ravia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketServices\\BookMyTicketServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketServices\\BookMyTicketServices.csproj",
+        "projectName": "BookMyTicketServices",
+        "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketServices\\BookMyTicketServices.csproj",
+        "packagesPath": "C:\\Users\\ravia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ravia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj": {
+                "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "PetaPoco.Compiled": {
+              "target": "Package",
+              "version": "[6.0.480, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+CREATE DATABASE BookMyTicket;
+GO
+
+USE BookMyTicket;
+GO
+
+CREATE TABLE Users
+(
+UserId INT PRIMARY KEY IDENTITY,
+UserName NVARCHAR(20) NOT NULL,
+UserPassword NVARCHAR(20) NOT NULL,
+Email NVARCHAR(20) NOT NULL UNIQUE,
+PhoneNumber NVARCHAR(10) NOT NULL UNIQUE,
+CONSTRAINT ck_PhoneNumber CHECK (PhoneNumber NOT LIKE '%[^0-9]%')
+);
+GO
+
+CREATE TABLE Booking
+(
+BookingId INT PRIMARY KEY IDENTITY,
+NumberOfSeats INT NOT NULL,
+TimeOfBooking DATETIME NOT NULL,
+UserId INT REFERENCES Users(UserId),
+);
+GO
+
+CREATE TABLE Movie
+(
+MovieId INT PRIMARY KEY IDENTITY,
+MovieName NVARCHAR(20) NOT NULL,
+MovieDuration DATETIME NOT NULL,
+MovieLanguage NVARCHAR(20) NOT NULL,
+);
+GO
+
+CREATE TABLE Genre
+(
+GenreId INT PRIMARY KEY IDENTITY,
+GenreName NVARCHAR(20) NOT NULL UNIQUE,
+MovieId INT REFERENCES Movie(MovieId)
+);
+GO
+
+CREATE TABLE MovieHall
+(
+MovieHallId INT PRIMARY KEY IDENTITY,
+TotalSeats INT NOT NULL,
+);
+GO
+
+CREATE TABLE Show
+(
+ShowId INT PRIMARY KEY IDENTITY,
+ShowDate DATETIME NOT NULL,
+ShowStartTime DATETIME NOT NULL,
+ShowEndTime DATETIME NOT NULL,
+MovieId INT REFERENCES Movie(MovieId),
+MovieHallId INT REFERENCES MovieHall(MovieHallId)
+);
+GO
+
+CREATE TABLE Seat
+(
+SeatID INT PRIMARY KEY IDENTITY,
+Price INT NOT NULL,
+SeatNumber INT NOT NULL,
+MovieHallId INT REFERENCES MovieHall(MovieHallId),
+BookingId INT REFERENCES Booking(BookingId),
+UNIQUE(SeatNumber, MovieHallId, BookingId)
+);
+GO
+
+CREATE INDEX GenreName
+ON Genre(GenreName);
+GO
+
+CREATE INDEX BookingUserId
+ON Booking(UserId);
+GO
+
+CREATE INDEX MovieLanguage
+ON Movie(MovieLanguage);
+GO
+
+CREATE INDEX ShowMovieId
+ON Show(MovieId);
+GO
+
+CREATE INDEX ShowMovieHallId
+ON Show(MovieHallId);
+GO
+
+CREATE INDEX SeatMovieHallId
+ON Seat(MovieHallId);
+GO
+
+CREATE INDEX SeatBookingId
+ON Seat(BookingId);
+GO
+
+--DROP DATABASE BookMyTicket;
+--GO
+
+
+
+
+
