@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj": {}
+    "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj": {
+    "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj",
+        "projectUniqueName": "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj",
         "projectName": "BookMyTicketModels",
-        "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj",
+        "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj",
         "packagesPath": "C:\\Users\\ravia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\obj\\",
+        "outputPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicketModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ravia\\AppData\\Roaming\\NuGet\\NuGet.Config",
