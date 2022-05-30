@@ -8170,11 +8170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicket\\BookMyTicket.csproj",
+      "projectUniqueName": "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicket\\BookMyTicket.csproj",
       "projectName": "BookMyTicket",
-      "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicket\\BookMyTicket.csproj",
+      "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicket\\BookMyTicket.csproj",
       "packagesPath": "C:\\Users\\ravia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicket\\obj\\",
+      "outputPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicket\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ravia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8191,11 +8191,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj": {
-              "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj"
+            "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj": {
+              "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicketModels\\BookMyTicketModels.csproj"
             },
-            "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketServices\\BookMyTicketServices.csproj": {
-              "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\Bro's\\AddressBookAPI\\BookMyTicket\\BookMyTicketServices\\BookMyTicketServices.csproj"
+            "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicketServices\\BookMyTicketServices.csproj": {
+              "projectPath": "C:\\Users\\ravia\\OneDrive\\Desktop\\GitHub\\BookMyTicket\\BookMyTicketServices\\BookMyTicketServices.csproj"
             }
           }
         }
