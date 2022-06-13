@@ -32,6 +32,7 @@ container.Register<IMovieServices,MovieServices>();
 container.Register<ISeatServices,SeatServices>();
 container.Register<IShowServices,ShowServices>();
 container.Register<IUsersServices,UsersServices>();
+container.Register<IShowTicketServices, ShowTicketServices>();
 
 container.Register<Database>(() => new Database("Data Source=LAPTOP-S0V1BVRJ;Initial Catalog=BookMyTicket;Integrated Security=True", "System.Data.SqlClient"), Lifestyle.Scoped);
 

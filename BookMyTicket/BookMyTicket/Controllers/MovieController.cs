@@ -15,11 +15,13 @@ namespace BookMyTicketServices.Controllers
         {
             Services = services;
         }
+        
         [HttpGet]
         public IEnumerable<MovieDTO> GetMovieList()
         {
             return Services.GetMovieList();
         }
+        
         [HttpGet("{id}")]
         public MovieDTO GetMovieById(int id)
         {
@@ -30,15 +32,23 @@ namespace BookMyTicketServices.Controllers
         {
             return Services.AddMovie(movie);
         }
+        
         [HttpPatch]
         public MovieDTO UpdateMovieDetails(int id, MovieDTO movie)
         {
             return Services.UpdateMovieDetails(id, movie);
         }
+        
         [HttpDelete]
         public void DeleteMovie(int id)
         {
             Services.DeleteMovie(id);
+        }
+
+        [HttpGet("Page/{PageNumber}")]
+        public IEnumerable<MovieDTO> GetPage(int PageNumber)
+        {
+            return Services.GetPage(PageNumber);
         }
     }
 }

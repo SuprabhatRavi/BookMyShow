@@ -13,6 +13,7 @@ namespace BookMyTicketServices.Modals
             CreateMap<Seat, SeatDTO>();
             CreateMap<Show, ShowDTO>();
             CreateMap<Users, UsersDTO>();
+            CreateMap<Ticket, TicketDTO>();
         }
     }
 }
