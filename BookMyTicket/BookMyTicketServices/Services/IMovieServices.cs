@@ -9,5 +9,6 @@ namespace BookMyTicketServices.Services
         MovieDTO GetMovieById(int id);
         IEnumerable<MovieDTO> GetMovieList();
         MovieDTO UpdateMovieDetails(int id, MovieDTO movie);
+        public IEnumerable<MovieDTO> GetPage(int PageNumber);
     }
 }

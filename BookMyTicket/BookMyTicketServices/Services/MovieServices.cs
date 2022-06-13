@@ -45,5 +45,11 @@ namespace BookMyTicketServices.Services
             var MovieDetails = db.Single<Movie>($"Select * from Movie where MovieId = {id}");
             db.Delete("Movie", "MovieId", MovieDetails);
         }
+
+        public IEnumerable<MovieDTO> GetPage(int PageNumber)
+        {
+            var MovieList = db.Query<Movie>($";EXEC Pages @@PageNumber = { PageNumber }");
+            return Mapper.Map<IEnumerable<MovieDTO>>(MovieList);
+        }
     }
 }
